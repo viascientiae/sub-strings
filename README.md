@@ -26,6 +26,7 @@ For instance:
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 substrings("below", dictionary)
 # Expected output: { "below" => 1, "low" => 1 }
+```
 
 The method is also designed to handle multiple words:
 
