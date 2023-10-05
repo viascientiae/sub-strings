@@ -4,6 +4,8 @@ def substrings(word, substrings_array)
 
   word_array = word.split(" ")
 
+  word_array.each do |word|
+
   substrings_array.each do |substring|
 
     if word.include?(substring)
@@ -18,6 +20,8 @@ def substrings(word, substrings_array)
     end
 
   end
+
+end
 
 puts hash_listing
 
