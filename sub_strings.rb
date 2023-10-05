@@ -2,6 +2,8 @@ def substrings(word, substrings_array)
 
   hash_listing = {}
 
+  word_array = word.split(" ")
+
   substrings_array.each do |substring|
 
     if word.include?(substring)
@@ -23,4 +25,4 @@ end
 
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
-substrings("below", dictionary)
+substrings("Howdy partner, sit down! How's it going?", dictionary)
